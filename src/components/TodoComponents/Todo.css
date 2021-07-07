@@ -1,0 +1,27 @@
+.todoFormStyle {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.todoButtons {
+    background-color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 50px 0 0 0;
+}
+
+.todoButtons:hover {
+    background-color: rgb(202, 201, 201);
+    width: 350px;
+    height: 350px;
+    transition: 1.25s;
+}
+
+.todoItems {
+    font-size: 2rem;
+    text-align: center;
+}
